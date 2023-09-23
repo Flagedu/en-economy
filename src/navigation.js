@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Free Plan!', href: 'https://docs.google.com/forms/d/e/1FAIpQLSe20ouSBwFmAg7uZuM_xHT_nvznQKemyPeNCzqC9lG1gujCkQ/viewform', target: '_blank' }],
 };
 
 export const footerData = {
