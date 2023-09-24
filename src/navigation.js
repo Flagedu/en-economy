@@ -3,58 +3,60 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      text: 'Home',
+      href:"/"
+      // links: [
+      //   {
+      //     text: 'SaaS',
+      //     href: getPermalink('/homes/saas'),
+      //   },
+      //   {
+      //     text: 'Startup',
+      //     href: getPermalink('/homes/startup'),
+      //   },
+      //   {
+      //     text: 'Mobile App',
+      //     href: getPermalink('/homes/mobile-app'),
+      //   },
+      //   {
+      //     text: 'Personal',
+      //     href: getPermalink('/homes/personal'),
+      //   },
+      // ],
     },
     {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
+      text: 'Blog',
+      href: getBlogPermalink(),
+      // links: [
+      //   {
+      //     text: 'Features (Anchor Link)',
+      //     href: getPermalink('/#features'),
+      //   },
+      //   {
+      //     text: 'Services',
+      //     href: getPermalink('/services'),
+      //   },
+      //   {
+      //     text: 'Pricing',
+      //     href: getPermalink('/pricing'),
+      //   },
+      //   {
+      //     text: 'About us',
+      //     href: getPermalink('/about'),
+      //   },
+      //   {
+      //     text: 'Contact',
+      //     href: getPermalink('/contact'),
+      //   },
+      //   {
+      //     text: 'Terms',
+      //     href: getPermalink('/terms'),
+      //   },
+      //   {
+      //     text: 'Privacy policy',
+      //     href: getPermalink('/privacy'),
+      //   },
+      // ],
     },
     {
       text: 'Landing',
