@@ -29,16 +29,16 @@ export default defineConfig({
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
-  adapter: vercel({
-    webAnalytics:{
-      enabled: true,
-    },
-    speedInsights: {
-      enabled: true,
-    },
+  // adapter: vercel({
+  //   webAnalytics:{
+  //     enabled: true,
+  //   },
+  //   speedInsights: {
+  //     enabled: true,
+  //   },
 
     
-  }),
+  // }),
   integrations: [
     tailwind({
       applyBaseStyles: false,
