@@ -1,6 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import vercel from '@astrojs/vercel/static';
+import react from '@astrojs/react';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
@@ -40,9 +40,14 @@ export default defineConfig({
     
   // }),
   integrations: [
+
+    //react(),
+    react(),
+    // tailwind(),
     tailwind({
       applyBaseStyles: false,
     }),
+    
     sitemap(),
     mdx(),
     icon({
